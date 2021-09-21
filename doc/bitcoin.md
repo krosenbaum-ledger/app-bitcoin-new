@@ -205,6 +205,7 @@ Get a receive or change a address for a registered or default wallet, after vali
 
 | Length | Name            | Description |
 |--------|-----------------|-------------|
+| `1`    | `display`       | `0` or `1` |
 | `32`   | `wallet_id`     | The id of the wallet |
 | `32`   | `wallet_hmac`   | The hmac of a registered wallet, or exactly 32 0 bytes |
 | `1`    | `change`        | `0` for a receive address, `1` for a change address |
